@@ -157,12 +157,7 @@ td, th {
     display: inline-block;
     transition: transform 0.2s;
     transform-origin: 50% 50%;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
+    -webkit-touch-callout: none; }
 
 .text {
   font-family: "Open Sans", sans-serif;
@@ -172,7 +167,9 @@ td, th {
   height: 15vh;
   padding-top: 5vh;
   text-align: center;
-  font-size: 2em;
+  font-size: 2em; }
+
+.no-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
