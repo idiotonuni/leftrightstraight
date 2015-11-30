@@ -39,7 +39,7 @@ $(document).ready(function() {
                 if(rand < .5){
                     setRight();
                 }else{
-                    setStraight();
+                    setLeft();
                 }
             }else{
                 setStraight();
@@ -54,9 +54,9 @@ $(document).ready(function() {
             }else if(getText() == "Seriously Still Right"){
                 rand = Math.random();
                 if(rand < .5){
-                    setRight();
+                    setLeft();
                 }else{
-                    setRight();
+                    setStraight();
                 }
             }else{
                 setRight();
