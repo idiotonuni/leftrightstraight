@@ -1,7 +1,11 @@
 $(document).ready(function() {
     //set the width the the height to make a square
     //$(".arrow").width($(".arrow").height());
+    var supportsVibrate = "vibrate" in navigator;
     $('.icon').click(function() {
+        if (supportsVibrate) {
+            navigator.vibrate(100);
+        }
         var rand = Math.random();
         var randomColor = Math.floor(Math.random()*16777215).toString(16);
         randomColor = "#" + randomColor;
