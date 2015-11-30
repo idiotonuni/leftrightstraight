@@ -150,12 +150,19 @@ td, th {
   font-size: 10em;
   text-align: center;
   padding-top: 20vh;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; }
   .icon .arrow {
     transform: rotate(-90deg);
     display: inline-block;
     transition: transform 0.2s;
-    transform-origin: 50% 50%; }
+    transform-origin: 50% 50%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
 
 .text {
   font-family: "Open Sans", sans-serif;
@@ -165,6 +172,12 @@ td, th {
   height: 15vh;
   padding-top: 5vh;
   text-align: center;
-  font-size: 2em; }
+  font-size: 2em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
 /*# sourceMappingURL=main.css.map */
