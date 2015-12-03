@@ -7,9 +7,9 @@ $(document).ready(function() {
             navigator.vibrate(100);
         }
         var rand = Math.random();
-        var randomColor = Math.floor(Math.random()*16777215).toString(16);
-        randomColor = "#" + randomColor;
+        var randomColor = "#"+(Math.random()*0xFFFFFF<<0).toString(16);
         $("body").css("background-color",randomColor);
+        $('meta[name=theme-color]').attr('content', randomColor);
         if(rand < .333){
             if(getText() == "Left"){
                 setLeft("Still Left");
