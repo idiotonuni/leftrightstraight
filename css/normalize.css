@@ -1,6 +1,4 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -142,42 +140,4 @@ table {
 td, th {
   padding: 0; }
 
-.icon {
-  width: 100%;
-  height: 60vh;
-  font-size: 10em;
-  text-align: center;
-  padding-top: 20vh;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent; }
-  .icon .arrow {
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    display: inline-block;
-    -webkit-transition: -webkit-transform 0.2s;
-            transition: transform 0.2s;
-    -webkit-transform-origin: 50% 50%;
-        -ms-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-touch-callout: none; }
-
-.text {
-  font-family: "Open Sans", sans-serif;
-  background-color: #333;
-  color: white;
-  width: 100%;
-  height: 15vh;
-  padding-top: 5vh;
-  text-align: center;
-  font-size: 2em; }
-
-.no-select {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=normalize.css.map */
