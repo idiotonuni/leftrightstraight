@@ -7,7 +7,7 @@ $(document).ready(function() {
             navigator.vibrate(100);
         }
         var rand = Math.random();
-        var randomColor = "#"+(Math.random()*0xFFFFFF<<0).toString(16);
+        var randomColor = '#'+(Math.random().toString(16) + '000000').slice(2, 8);
         $("body").css("background-color",randomColor);
         $('meta[name=theme-color]').attr('content', randomColor);
         if(rand < .333){
