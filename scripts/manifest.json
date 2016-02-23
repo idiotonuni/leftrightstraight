@@ -1,0 +1,6 @@
+{
+    "name": "Left Right Straight",
+    "start_url": "../index.jtml",
+    "display": "standalone",
+    "orientation": "any"
+}
